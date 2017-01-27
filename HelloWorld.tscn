@@ -1,0 +1,109 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://panelscript.gd" type="Script" id=1]
+
+[node name="Panel" type="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 1.0
+margin/top = 1.0
+margin/right = 332.0
+margin/bottom = 138.0
+script/script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 20.0
+margin/top = 20.0
+margin/right = 278.0
+margin/bottom = 34.0
+text = "Hello World! Press buttons to play pong."
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label1" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 186.0
+margin/top = 77.0
+margin/right = 312.0
+margin/bottom = 91.0
+text = "Display time here :)"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label2" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 20.0
+margin/top = 37.0
+margin/right = 278.0
+margin/bottom = 51.0
+text = "Reach 10 points to go back to menu"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Winner" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 20.0
+margin/top = 53.0
+margin/right = 308.0
+margin/bottom = 67.0
+text = "Right player won "
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Button" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 19.0
+margin/top = 74.0
+margin/right = 177.0
+margin/bottom = 94.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Update time and play !"
+flat = false
+
+[node name="Button 2" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 20.0
+margin/top = 102.0
+margin/right = 178.0
+margin/bottom = 123.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Play alt pong"
+flat = false
+
+
